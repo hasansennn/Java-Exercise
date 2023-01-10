@@ -1,6 +1,6 @@
 package furkanSorular;
 
-public class soru4_array {
+public class soru4_arrayDereceNotlar {
 
     public static void main(String[] args) {
 
@@ -9,7 +9,6 @@ public class soru4_array {
 		     	String [] names = {"Anna", "Nancy", "Sarah"};
 		        int [] scores = {90, 75, 80};
 		        char [] grades = new char[names.length];
-
          1. write a program that can store the grades of the students in the array named grades
          2. print the grade report of each students in separate lines
          		Ex:
@@ -30,5 +29,13 @@ public class soru4_array {
         String [] isimler = {"Anna", "Nancy", "Sarah"};
         int [] puanlar = {90, 75, 80};
         char [] dereceler = new char[isimler.length];
+
+        for (int i = 0; i < isimler.length; i++) {
+            String isim=isimler[i];
+            int puan=puanlar[i];
+
+
+            System.out.println(isim + " 'in" + " puani " + puan + " ve notu " + dereceler );
+        }
     }
 }
