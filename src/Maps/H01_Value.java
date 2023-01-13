@@ -1,5 +1,7 @@
 package Maps;
 
+import Maps2.MapMethodDepo;
+
 import java.util.Map;
 
 public class H01_Value {
@@ -19,6 +21,9 @@ public class H01_Value {
         //Map<Integer,String> doktorlarMap= MapMethodMemory.doktorlarMapOlustur();
        // doktorlarMap.put(107, "Muharrem,7,Goz");
        // System.out.println(doktorlarMap);
+
+        Map<Integer,String> ogrenciMap= MapMethodDepo.ogrenciMapOlustur();
+
     }
 
 }
