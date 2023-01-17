@@ -1,4 +1,6 @@
-package abdullahHocaa;
+package OGRRETMENOGRENCI;
+
+import OGRRETMENOGRENCI.Kisi;
 
 public class Ogretmen extends Kisi {
 

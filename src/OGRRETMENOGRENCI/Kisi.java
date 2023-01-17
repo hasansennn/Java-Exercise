@@ -1,4 +1,4 @@
-package abdullahHocaa;
+package OGRRETMENOGRENCI;
 
 public class Kisi {
     /*
@@ -60,4 +60,3 @@ Ad-Soyad,  kimlik No, yaş
                 ", yas=" + yas ;
     }
 }
-

@@ -1,4 +1,4 @@
-package abdullahHocaa;
+package OGRRETMENOGRENCI;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -14,11 +14,13 @@ public class AnaMenu {
                 "\t 2- ÖĞRETMEN İŞLEMLERİ\n" +
                 "\t Q- ÇIKIŞ\n" +
                 "\t SEÇİMİNİZ: ");
+        int secim=0;
         try {
-            int secim=scan.nextInt();
+            secim=scan.nextInt();
             switch (secim){
                 case 1:{
                     OgrenciIslemler ogrenciMenu=new OgrenciIslemler();
+                    ogrenciMenu.ogrenciMenu();
                 }
                 case 2:{
                     OgretmenIslemler ogretmenMenu=new OgretmenIslemler();
@@ -27,8 +29,8 @@ public class AnaMenu {
 
             }
         }catch (InputMismatchException e){
-            String secim=scan.next();
-            if (secim.equalsIgnoreCase("q")){
+            String kontrol=scan.next();
+            if (kontrol.equalsIgnoreCase("q")){
                 System.out.println("SİSTEMDEN ÇIKIYOR");
                 System.exit(0);
             }else {

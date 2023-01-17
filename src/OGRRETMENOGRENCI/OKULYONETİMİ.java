@@ -1,4 +1,4 @@
-package abdullahHocaa;
+package OGRRETMENOGRENCI;
 
 public class OKULYONETİMİ {
     /*

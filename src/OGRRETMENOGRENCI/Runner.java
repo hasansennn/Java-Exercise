@@ -1,4 +1,6 @@
-package abdullahHocaa;
+package OGRRETMENOGRENCI;
+
+import OGRRETMENOGRENCI.AnaMenu;
 
 public class Runner {
     public static void main(String[] args) {

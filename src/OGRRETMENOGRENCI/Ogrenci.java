@@ -1,4 +1,6 @@
-package abdullahHocaa;
+package OGRRETMENOGRENCI;
+
+import OGRRETMENOGRENCI.Kisi;
 
 public class Ogrenci extends Kisi {
 
@@ -11,6 +13,9 @@ public class Ogrenci extends Kisi {
         super(ad, sad, tcNo, yas);
         this.numara = numara;
         this.sinif = sinif;
+    }
+
+    public Ogrenci() {
     }
 
     public int getNumara() {
@@ -31,7 +36,7 @@ public class Ogrenci extends Kisi {
 
     @Override
     public String toString() {
-        return super.toString() +" "+ "numara=" + numara +
+        return super.toString() + " " + "numara=" + numara +
                 ", sinif='" + sinif;
     }
 }
